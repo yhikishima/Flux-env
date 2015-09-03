@@ -1,0 +1,17 @@
+{
+  "name": "Flux-wikiApp",
+  "version": "1.0.0",
+  "description": "Flux-wikiApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yhikishima",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "flux-react": "^2.6.6",
+    "gulp": "^3.9.0",
+    "react": "^0.13.3"
+  }
+}
