@@ -1,8 +1,7 @@
 // App.js
-var React = require('flux-react');
+var React = require('react');
+var flux = require('flux-react');
 var view = require('./components/view.js');
-
-React.debug();
 
 var App = React.createClass({
   render: function() {
@@ -15,4 +14,4 @@ var App = React.createClass({
   }
 });
 
-React.renderComponent(<App/>, document.body);
+React.render(<App/>, document.body);

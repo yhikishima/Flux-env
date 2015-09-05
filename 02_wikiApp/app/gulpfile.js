@@ -1,11 +1,11 @@
 // gulpfile.js
 var gulp = require('gulp');
-var browserify = require('browserify');
+var browserify = require('./task/browserify');
 
 var OPTION = {
   browserify: {
     src: './src/js/App.js',
-    dest: './dist/',
+    dest: './dist/js/',
     watch: false,
     uglify: false
   }
